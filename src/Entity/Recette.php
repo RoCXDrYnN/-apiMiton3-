@@ -16,7 +16,7 @@ use Symfony\Component\Serializer\Annotation\Groups;
 class Recette
 {
     /**
-     * @Groups({"recette"})
+     * @Groups("recette")
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
